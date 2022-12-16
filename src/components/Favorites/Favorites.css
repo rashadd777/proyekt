@@ -1,0 +1,99 @@
+.favorites {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 8, 7);
+    padding: 30px 20px;
+}
+
+.favorites__name {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, .5);
+    margin-bottom: 24px;
+}
+
+.favorites__list {
+    margin-bottom: 24px;
+}
+
+.favorites__save {
+    border: none;
+    
+    background-color: #496DDB;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+.open_save_a {
+    border: none;
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+.open_save_button {
+    border: none;
+    background-color: #ff5959;
+    padding: 5px;
+    color: #FFEEDB;
+}
+
+.favorites__save:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}
+
+.delbutton {
+    background: none;
+    border: none;
+    padding: 10px;
+}
+
+.delbutton:hover {
+    background-color: #496DDB;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.h1_favorite {
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+.copy {
+    position: absolute;
+    top: 500px
+}
+
+@media (min-width: 375px) and (max-width: 834px) {    
+    .favorites {
+        background: rgba(107, 117, 255, 0.5);
+        position: fixed;
+        top: 500px;
+        right: 0px;
+        left: 0px;        
+        bottom: 0px;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .h1_favorite {
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .copy {
+        position: absolute;
+        top: -1100px;
+        
+    }
+}

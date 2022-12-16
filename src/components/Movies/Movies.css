@@ -1,0 +1,30 @@
+.movies__item {
+    margin-bottom: 21px;
+}
+
+.focus-movie-item_add-button {
+    border: none;
+    background-color: #ff5959;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+@media (min-width: 375px) and (max-width: 834px) {    
+    .movies {
+        width: 100%;   
+        position: relative  ;
+        top: 30px;
+        right: 0px;
+        left: 20px;        
+        bottom: 3000px;
+    }
+    .Linkbr {
+        display: inline;
+        margin: 0 0 0 5px;
+    }
+    .main-page__main-section {       
+        width: 90%;
+    }
+}
